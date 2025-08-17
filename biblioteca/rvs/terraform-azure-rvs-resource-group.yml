@@ -27,8 +27,7 @@ spec:
       - resource_group_name_rvsfa
     dependsOn:
       - resource: terraform-azurerm-rvs-redis-cache
-      - resource: terraform-azurerm-rvs-resource-group
       - resource: terraform-azurerm-rvs-storage-account
-      - resource: terraform-azurerm-srv-key-vault
+      - resource: terraform-azurerm-srv-keyvault
       - resource: terraform-azurerm-tdr-database
-      - resource: terraform-azurerm-tdr-key-vault-access-policy
+      - resource: terraform-azurerm-tdr-keyvault-access-policy
